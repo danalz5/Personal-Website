@@ -23,14 +23,14 @@ li {
     padding: 50px;
 }
   
-li img {
+li icon {
     display: block;
     color: white;
     text-align: center;
     text-decoration: none;
 }
   
-img:hover {
+icon:hover {
     filter: aquamarine;
     cursor: pointer;
 }
