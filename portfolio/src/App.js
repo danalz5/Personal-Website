@@ -1,12 +1,12 @@
 import './css/App.css';
 import Header from './components/Header.js';
-import AboutMe from './components/AboutMe.js';
+import InfoArea from './components/InfoArea.js';
 
 function App() {
   return (
     <div className="App">
       <Header/>
-      <AboutMe/>
+      <InfoArea/>
     </div>
   );
 }
