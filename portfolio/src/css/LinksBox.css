@@ -1,0 +1,36 @@
+.LinksBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 600px;
+    background-color: #1c1c1c;
+    border-radius: 20px;
+    margin-top: -60px;
+    z-index: 2;
+    overflow: hidden;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+li {
+    float: left;
+    padding: 50px;
+}
+  
+li img {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+  
+img:hover {
+    filter: aquamarine;
+    cursor: pointer;
+}
