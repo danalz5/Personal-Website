@@ -17,6 +17,7 @@
     background-color: #1c1c1c;
     border-radius: 20px;
     transition: all 0.35s ease-in-out;
+    overflow: hidden;
     
 }
 
@@ -25,7 +26,53 @@
 }
 
 .InfoText {
+    width: 80%;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+    font-size: 120%;
     z-index: 2;
+}
+
+.InfoTextMoveLeft {
+    width: 80%;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+    font-size: 120%;
+    animation: move-left 1.5s infinite;
+    z-index: 2;
+}
+
+.InfoTextMoveRight {
+    width: 80%;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+    font-size: 120%;
+    animation: move-right 1.5s infinite;
+    z-index: 2;
+}
+
+
+@keyframes move-left {
+    from {
+        transform: translateX(150%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes move-right {
+    from {
+        transform: translateX(-150%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
 }
 
 .LeftArrow {

@@ -7,15 +7,6 @@
   flex-direction: column;
 }
 
-span {
-  margin-left: 50px;
-  margin-right: 50px;
-  color: white;
-  font-family: 'Quicksand', sans-serif;
-  text-align: left;
-  font-size: 20px;
-}
-
 body {
   display: flex;
   justify-content: center;
