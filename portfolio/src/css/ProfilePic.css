@@ -9,12 +9,12 @@
     height: 300px;
     border-radius: 50%;
     padding: 10px;
-    animation: spin 5s linear infinite;
+    animation: spin 7s linear infinite;
 }
 
 @keyframes spin{
 	from{transform:rotate(0deg)}
-	to{transform:rotate(360deg)}	
+	to{transform:rotate(360deg)}
 }
 
 .pfp {
@@ -23,6 +23,6 @@
     border-radius: 50%;
     background: rgb(37, 37, 37);
     padding: 20px;
-    animation: spin 5s linear infinite;
+    animation: spin 7s linear infinite;
     animation-direction: reverse;
 }
