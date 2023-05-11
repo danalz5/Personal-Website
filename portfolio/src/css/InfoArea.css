@@ -13,7 +13,7 @@
     margin-top: 50px;
     margin-bottom: 50px;
     width: 800px;
-    height: 600px;
+    height: 570px;
     background-color: #1c1c1c;
     border-radius: 20px;
     transition: all 0.35s ease-in-out;
@@ -40,7 +40,7 @@
     font-family: 'Quicksand', sans-serif;
     text-align: left;
     font-size: 90%;
-    animation: move-left 1.5s;
+    animation: move-left .7s;
     z-index: 2;
 }
 
@@ -50,7 +50,7 @@
     font-family: 'Quicksand', sans-serif;
     text-align: left;
     font-size: 90%;
-    animation: move-right 1.5s;
+    animation: move-right .7s;
     z-index: 2;
 }
 

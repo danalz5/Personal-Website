@@ -23,7 +23,7 @@ function InfoArea() {
     }
     setSpanClassName("InfoTextMoveRight");
     setButtonDisable(true);
-    setTimeout(() => {setSpanClassName("InfoText"); setButtonDisable(false);}, 1500); // enables button and the class name of span to it's default (no animation)
+    setTimeout(() => {setSpanClassName("InfoText"); setButtonDisable(false);}, 700); // enables button and the class name of span to it's default (no animation)
   }
 
   // RightArrowAction()
@@ -38,7 +38,7 @@ function InfoArea() {
     }
     setSpanClassName("InfoTextMoveLeft");
     setButtonDisable(true);
-    setTimeout(() => {setSpanClassName("InfoText"); setButtonDisable(false);}, 1500); // enables button and the class name of span to it's default (no animation)
+    setTimeout(() => {setSpanClassName("InfoText"); setButtonDisable(false);}, 700); // enables button and the class name of span to it's default (no animation)
   }
 
   return (
