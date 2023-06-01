@@ -118,6 +118,12 @@
         align-items: center;
     }
 
+    .InfoTextBox {
+        justify-content: top;
+        width: 300px;
+        height: 1500px;
+    }
+
     .LeftArrow {
         margin-right: 0;
         margin-top: 40px;
