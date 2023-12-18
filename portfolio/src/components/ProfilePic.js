@@ -1,5 +1,5 @@
 import "../css/ProfilePic.css"
-import pfp from '../images/pfp placeholder.png';
+import pfp from '../images/grad_pic.jpg';
 
 function ProfilePic() {
     return (
